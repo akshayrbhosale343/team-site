@@ -1,0 +1,88 @@
+/* Space for fixed navbar */
+body{
+    margin-top: 70px;
+}
+
+/* navbar color and padding */
+.navbar, .dropdown-menu{
+    background-color: rgb(64, 66, 64);
+    padding:0px;
+}
+
+/* nav links color */
+.nav-link, .navbar-brand, .dropdown-item{
+    color:white;
+}
+
+/* hamburger button style */
+.navbar-toggler{
+    border: 1px solid white;
+}
+.navbar-toggler{
+    margin:8px 10px;
+}
+
+/* when nav-link is active */
+.navbar-nav .active, .navbar-nav .active:hover{ 
+    background-color:  rgb(47, 170, 47);
+}
+
+.nav-item{
+    padding:5px 15px;
+}
+.nav-item:hover, .dropdown-item:hover{
+    background-color: rgb(75, 78, 75);
+    color: white;
+}
+.nav-link:hover{
+    color:white;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+.jumbotron{
+    background-color: rgb(47, 170, 47);
+    color: white;
+    font-size: 1.5rem;
+}
+.jumbotron h1{
+    font-size: 4rem;
+}
+.img-thumbnail{
+    height: 200px;
+    width: 100%;
+    margin-bottom:10px;
+    z-index: -1;
+}
+
+.image-name p{
+    text-align: center;
+    height: 32px;
+    margin-top: -8px;
+}
+
+/* modal style */
+.modal-button{
+    background-color: rgb(64, 66, 64);
+    color: white;
+}
+
+/* Large Screen */
+@media screen and (max-width: 992px) {
+    .jumbotron h1{
+        font-size: 3rem;
+    }
+    .jumbotron{
+       font-size: 1.2rem;
+    }
+}
+  
+@media screen and (max-width: 768px) {
+    .jumbotron h1{
+        font-size: 2rem;
+    }
+    .jumbotron{
+        font-size: 1rem;
+     }
+}
