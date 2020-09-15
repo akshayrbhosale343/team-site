@@ -10,8 +10,9 @@ body{
 }
 
 /* nav links color */
-.nav-link, .navbar-brand, .dropdown-item{
+.nav-link, .navbar-brand, .dropdown-item, .modal-button a{
     color:white;
+    text-decoration: none;
 }
 
 /* hamburger button style */
@@ -66,6 +67,16 @@ body{
 .modal-button{
     background-color: rgb(64, 66, 64);
     color: white;
+}
+#contact-mail{
+    width: 80%;
+    border: none;
+    background-color: white;
+    outline-width: 0;
+    display: inline-block;
+}
+.contact-mail{
+    width: 20%;
 }
 
 /* Large Screen */
