@@ -1,9 +1,36 @@
 /* Space for fixed navbar */
 body{
-    margin-top: 70px;
+    /* margin-top: 100px; */
+} 
+
+/* Header  */
+.team-name{
+    font-weight: 700;
+    
+}
+.team-mail{
+    margin-top: 30px;
+}
+.team-name, .team-mail{
+    display: inline;
+}
+.team-name img{
+    height: 80px;
+    margin-top: -5px;
+}
+.team-name span, .team-mail {
+    color:  rgb(64, 66, 64);
+}
+.team-mail span {
+    color: rgb(47, 170, 47);
 }
 
 /* navbar color and padding */
+.navbar{
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+
 .navbar, .dropdown-menu{
     background-color: rgb(64, 66, 64);
     padding:0px;
@@ -43,11 +70,28 @@ body{
     color: white;
 }
 
-/* Jumbotron */
+/* bottom-button */
+.bottom-button{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(47, 170, 47);
+    font-size: 38px;
+    color: rgb(64, 66, 64);
+    border-radius: 50%;
+    font-family: monospace;
+    margin-bottom: 30px;
+}
+.bottom-button:hover{
+    background-color: rgb(64, 66, 64);
+    color: rgb(47, 170, 47);
+}
+
+/* Jumbotron
 .jumbotron{
     background-color: rgb(47, 170, 47);
-    color: white;
+    color: rgb(47, 170, 47);;
     font-size: 1.5rem;
+    height: 80px;
 }
 .jumbotron img{
     height: 120px;
@@ -55,13 +99,9 @@ body{
 }
 .jumbotron h1{
     font-size: 4rem;
-}
-.img-thumbnail{
-    height: 200px;
-    width: 100%;
-    margin-bottom:10px;
-    z-index: -1;
-}
+    margin: -40px auto 0;
+} */
+
 
 .image-name p{
     text-align: center;
@@ -84,24 +124,39 @@ body{
 .contact-mail{
     width: 20%;
 }
+.toast{
+    border:none;
+    height: 0px;
+    margin:auto
+}
+.toast-msg, .toast-header{
+    height: 15px;
+    margin-left: 125px;
+}
 
+/* Carousel slides */
+.carousel img{
+    height: 300px;
+}
+.carousel{
+    margin-bottom: 30px;
+    outline: 1px solid rgba(64, 66, 64,0.4);
+}
+
+/* sections */
+.sections{
+    text-align: center;
+}
+.sections p{
+    text-align: justify;
+}
 
 
 /* Large Screen */
 @media screen and (max-width: 992px) {
-    .jumbotron h1{
-        font-size: 3rem;
-    }
-    .jumbotron{
-       font-size: 1.2rem;
-    }
+
 }
   
 @media screen and (max-width: 768px) {
-    .jumbotron h1{
-        font-size: 2rem;
-    }
-    .jumbotron{
-        font-size: 1rem;
-     }
+
 }
