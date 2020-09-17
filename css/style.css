@@ -151,6 +151,10 @@ body{
     text-align: justify;
 }
 
+.intro-video{
+    width:100%;
+}
+
 
 /* Large Screen */
 @media screen and (max-width: 992px) {
