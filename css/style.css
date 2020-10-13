@@ -158,9 +158,14 @@ body{
 
 /* Large Screen */
 @media screen and (max-width: 992px) {
-
+    
 }
   
 @media screen and (max-width: 768px) {
-
+    .team-mail, #carouselExampleIndicators{
+        display: none;
+    }
+    .team-name{
+        font-size: 6vw;
+    }
 }
